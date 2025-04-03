@@ -1,0 +1,65 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+body{
+    display: flex;
+}
+
+#lado_contatos{
+    height: 100vh;
+    width: 30%;
+    background-color: #fa9cad;
+}
+#lista_contatos{
+    width: 100%;
+    height: 100%;
+    background-color: #fab6c3;
+    display: flex;
+    flex-direction: column;
+ 
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#lado_mensagens{
+    height: 100vh;
+    width: 70%;
+    background-color: #ffecf2;
+    
+}
+#procurar_por_contatos{
+    display: flex;
+    justify-content: center;
+}
+#input_contatos{
+    border: none;
+    outline: none;
+    padding-left: 3%;
+    width: 85%;
+    height: 4vh;
+    margin-top: 5%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.nomeContato{
+    font-size: 20px;
+    border-top: 0.1px solid #ffffff;
+    border-bottom: 1px solid #ffffff; 
+    text-align: left; 
+    width: 100%; /* só pra linha ocupar a largura inteira*/
+    padding-left: 6%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    color: white;
+    cursor: pointer;
+}
