@@ -63,3 +63,50 @@ body{
     color: white;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+#caixaDeMensagens {
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Inria Sans", sans-serif;
+}
+
+/* Mensagens enviadas por você */
+.enviadaPorMim {
+    align-self: flex-end;
+    background-color: #d1f2eb;
+    color: #2e2e2e;
+    padding: 10px 15px;
+    border-radius: 20px 20px 0 20px;
+    max-width: 60%;
+}
+
+/* Mensagens enviadas pelo contato */
+.enviadaPeloContato {
+    align-self: flex-start;
+    background-color: #f5c6d6;
+    color: #2e2e2e;
+    padding: 10px 15px;
+    border-radius: 20px 20px 20px 0;
+    max-width: 60%;
+}
+
+/* Estilizando conteúdo e hora das mensagens */
+.enviadaPorMim p,
+.enviadaPeloContato p {
+    margin: 2px 0;
+    font-size: 14px;
+}
