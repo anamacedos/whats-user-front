@@ -51,7 +51,7 @@ async function trazerConversas(contatoNome){
 
 async function exibirMensagens(mensagens){
     const caixaDeMensagens = document.getElementById('caixaDeMensagens')
-    caixaDeMensagens.innerHTML = '' //limpa as mensagens anteriores
+    caixaDeMensagens.replaceChildren('')
 
     mensagens.forEach(function(mensagem){
         const divMensagem = document.createElement('div')
